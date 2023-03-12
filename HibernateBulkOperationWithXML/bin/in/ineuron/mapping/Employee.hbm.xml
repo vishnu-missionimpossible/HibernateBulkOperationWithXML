@@ -1,0 +1,11 @@
+
+<hibernate-mapping>
+	<class name="in.ineuron.Model.Employee" table="employee">
+		<id name="eno" type="java.lang.Integer" column="eno">
+		<generator class="identity"/>
+		</id>
+		<property name="ename" type="java.lang.String" length="20" column="ename"/>
+		<property name="eaddr" type="java.lang.String" length="20" column="eaddr"/>
+		<property name="esalary" type="java.lang.Integer" column="esalary"/>
+	</class>
+</hibernate-mapping>
